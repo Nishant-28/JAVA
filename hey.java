@@ -9,6 +9,7 @@ public class hey {
         fw.close();
         FileReader fr = new FileReader(f);
         int i;
+        
         while ((i = fr.read()) != -1) {
             System.out.print((char) i);
         }
